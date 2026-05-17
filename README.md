@@ -1,9 +1,9 @@
-## Deployment Instructions
+## Configuration Settings
 
-1. Clone the repository: `git clone <repository-url>`.
-2. Navigate to the project directory: `cd <project-directory>`.
-3. Install dependencies: `npm install` or `pip install -r requirements.txt`.
-4. Start the application: `npm start` or `python app.py`.
-5. Access the application at `http://localhost:3000` or the specified port.
+To configure the application, set the following environment variables:
 
-Ensure environment variables are set as needed.
+- `DATABASE_URL`: The URL for the database connection.
+- `API_KEY`: Your API key for external services.
+- `PORT`: The port on which the application will run (default is 3000).
+
+Ensure these variables are set before starting the application.
