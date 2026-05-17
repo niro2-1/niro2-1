@@ -1,29 +1,9 @@
-## Deployment Instructions
+## Code Block Overflow Handling
 
-To deploy this application, follow these steps:
+To handle overflow in code blocks, ensure that you implement the following strategies:
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/your-username/your-repo.git
-   cd your-repo
-   ```
+1. **Use Scrollable Containers**: Wrap code blocks in a container that allows scrolling when content exceeds the visible area.
+2. **Line Wrapping**: Enable line wrapping to prevent horizontal scrolling, making code more readable.
+3. **Truncation**: If necessary, truncate long lines with an ellipsis and provide a tooltip to view the full content.
 
-2. **Install dependencies**:
-   ```bash
-   npm install
-   ```
-
-3. **Build the application**:
-   ```bash
-   npm run build
-   ```
-
-4. **Start the server**:
-   ```bash
-   npm start
-   ```
-
-5. **Access the application**:
-   Open your browser and navigate to `http://localhost:3000`.
-
-Make sure to replace `your-username` and `your-repo` with the appropriate values.
+These practices enhance user experience by preventing overflow issues and maintaining readability.
