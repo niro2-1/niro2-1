@@ -1,18 +1,29 @@
-## Dark Mode Toggle
+## Deployment Instructions
 
-To enable dark mode, users can toggle the switch located in the settings menu. This will change the theme of the application to a darker color palette, reducing eye strain in low-light environments. The preference is saved in local storage, so it persists across sessions.
+To deploy this application, follow these steps:
 
-### Behavior
-- **Default State**: Light mode is enabled by default.
-- **Toggle Action**: Clicking the toggle switch will immediately switch the theme.
-- **Persistence**: The selected mode will be remembered on subsequent visits.
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/your-username/your-repo.git
+   cd your-repo
+   ```
 
-### Code Example
-```javascript
-// Example of toggling dark mode
-const toggleDarkMode = () => {
-    const body = document.body;
-    body.classList.toggle('dark-mode');
-    localStorage.setItem('darkMode', body.classList.contains('dark-mode'));
-};
-```
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+
+3. **Build the application**:
+   ```bash
+   npm run build
+   ```
+
+4. **Start the server**:
+   ```bash
+   npm start
+   ```
+
+5. **Access the application**:
+   Open your browser and navigate to `http://localhost:3000`.
+
+Make sure to replace `your-username` and `your-repo` with the appropriate values.
