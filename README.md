@@ -1,9 +1,9 @@
-## Code Block Overflow Handling
+## Deployment Instructions
 
-To handle overflow in code blocks, ensure that you implement the following strategies:
+1. Clone the repository: `git clone <repository-url>`.
+2. Navigate to the project directory: `cd <project-directory>`.
+3. Install dependencies: `npm install` or `pip install -r requirements.txt`.
+4. Start the application: `npm start` or `python app.py`.
+5. Access the application at `http://localhost:3000` or the specified port.
 
-1. **Use Scrollable Containers**: Wrap code blocks in a container that allows scrolling when content exceeds the visible area.
-2. **Line Wrapping**: Enable line wrapping to prevent horizontal scrolling, making code more readable.
-3. **Truncation**: If necessary, truncate long lines with an ellipsis and provide a tooltip to view the full content.
-
-These practices enhance user experience by preventing overflow issues and maintaining readability.
+Ensure environment variables are set as needed.
