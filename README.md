@@ -1,24 +1,8 @@
-# Project Title
+## Dark Mode Toggle
 
-## Description
-A brief description of your project.
+To enable dark mode, users can toggle the switch located in the settings menu. This will change the theme of the application to a darker color palette, reducing eye strain in low-light environments. The preference is saved in local storage, so it persists across sessions.
 
-## Setup Instructions
-1. Clone the repository: `git clone <repository-url>`
-2. Navigate to the project directory: `cd <project-directory>`
-3. Install dependencies: `npm install` or `pip install -r requirements.txt`
-
-## Deployment Instructions
-1. Ensure all environment variables are set up correctly.
-2. Build the project using: `npm run build` or `python setup.py install`.
-3. Deploy to your server or cloud provider using your preferred method (e.g., Docker, Heroku).
-4. Start the application: `npm start` or `python app.py`.
-
-## Usage
-- To run the project, use: `command to run your project`
-
-## Contributing
-- Guidelines for contributing to the project.
-
-## License
-- Information about the project's license.
+### Behavior
+- **Default State**: Light mode is enabled by default.
+- **Toggle Action**: Clicking the toggle switch will immediately switch the theme.
+- **Persistence**: The selected mode will be remembered on subsequent visits.
