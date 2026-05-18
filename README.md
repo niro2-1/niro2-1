@@ -1,9 +1,16 @@
-## Configuration Settings
+## Installation Steps
 
-To configure the application, set the following environment variables:
-
-- `DATABASE_URL`: The URL for the database connection.
-- `API_KEY`: Your API key for external services.
-- `PORT`: The port on which the application will run (default is 3000).
-
-Ensure these variables are set before starting the application.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/niro2-1/niro2-1.git
+   cd niro2-1
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Set up environment variables as described in the configuration section.
+4. Start the application:
+   ```bash
+   npm start
+   ```
