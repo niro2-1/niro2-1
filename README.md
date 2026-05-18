@@ -1,16 +1,11 @@
-## Installation Steps
+## Deployment Instructions
 
-1. Clone the repository:
+1. Ensure you have the latest version of Node.js installed.
+2. Build the application:
    ```bash
-   git clone https://github.com/niro2-1/niro2-1.git
-   cd niro2-1
+   npm run build
    ```
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-3. Set up environment variables as described in the configuration section.
-4. Start the application:
-   ```bash
-   npm start
-   ```
+3. Choose a hosting service (e.g., Heroku, AWS, DigitalOcean).
+4. Follow the hosting service's instructions to deploy the built application.
+5. Ensure environment variables are set correctly in the hosting environment.
+6. Monitor the application logs for any issues after deployment.
