@@ -1,11 +1,8 @@
-## Deployment Instructions
+## Preview Deploys
 
-1. Ensure you have the latest version of Node.js installed.
-2. Build the application:
-   ```bash
-   npm run build
-   ```
-3. Choose a hosting service (e.g., Heroku, AWS, DigitalOcean).
-4. Follow the hosting service's instructions to deploy the built application.
-5. Ensure environment variables are set correctly in the hosting environment.
-6. Monitor the application logs for any issues after deployment.
+To create a preview deploy, follow these steps:
+1. Create a new branch for your feature or fix.
+2. Push your branch to the repository.
+3. Use the CI/CD pipeline to trigger a preview deployment.
+4. Access the preview URL provided in the deployment logs.
+5. Test your changes in the preview environment before merging to main.
