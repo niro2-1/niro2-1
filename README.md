@@ -9,3 +9,6 @@ The RSS feed is implemented using a simple XML structure that updates dynamicall
 
 ### Usage
 To access the RSS feed, navigate to `/rss-feed.xml` in your browser or RSS reader.
+
+### Update
+This section has been updated to reflect recent changes in the feed generation process.
