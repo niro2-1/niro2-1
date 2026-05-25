@@ -1,11 +1,26 @@
-## RSS Feed Implementation
+## Deployment Instructions
 
-The RSS feed is implemented using a simple XML structure that updates dynamically based on the latest content. The feed is generated on a scheduled basis to ensure fresh content is available for subscribers. Each item in the feed includes a title, link, description, and publication date.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/niro2-1/niro2-1.git
+   cd niro2-1
+   ```
 
-### Key Features
-- Dynamic content updates
-- Simple XML structure
-- Scheduled generation
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-### Usage
-To access the RSS feed, navigate to `/rss-feed.xml` in your browser or RSS reader.
+3. Build the project:
+   ```bash
+   npm run build
+   ```
+
+4. Start the server:
+   ```bash
+   npm start
+   ```
+
+5. Access the application at `http://localhost:3000`.
+
+6. For production deployment, consider using a service like Heroku, AWS, or DigitalOcean. Follow their specific deployment guides for best practices.
