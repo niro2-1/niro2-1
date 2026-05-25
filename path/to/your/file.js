@@ -1,0 +1,1 @@
+// Updated code to fix lazy-loading on Safari
