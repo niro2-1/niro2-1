@@ -1,3 +1,10 @@
-## 500 Error Issue
+## Filename Handling
 
-If you encounter a **500 Internal Server Error**, please refer to [Issue #6](https://github.com/niro2-1/niro2-1/issues/6) for troubleshooting steps and updates regarding this issue.
+This section describes how to handle filenames in the project, including naming conventions and best practices.
+
+- Ensure filenames are descriptive and follow a consistent naming convention.
+- Avoid using spaces in filenames; use underscores or hyphens instead.
+- Keep filenames short but meaningful.
+- Use lowercase letters for filenames to maintain consistency.
+
+Following these guidelines will help improve the organization and accessibility of files within the project.
