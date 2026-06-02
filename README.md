@@ -1,7 +1,7 @@
-## Troubleshooting Steps for 500 Errors
+## Deployment Steps
 
-1. Check server logs for detailed error messages.
-2. Ensure all dependencies are correctly installed.
-3. Validate configuration files for errors.
-4. Restart the server to clear temporary issues.
-5. Contact support if the issue persists.
+1. Build the application using the command `npm run build`.
+2. Upload the build directory to your server.
+3. Configure your web server to serve the static files from the build directory.
+4. Restart the web server to apply changes.
+5. Verify the deployment by accessing the application in your browser.
