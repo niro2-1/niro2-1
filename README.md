@@ -14,3 +14,9 @@
 ## Additional Resources
 
 - Link to any external documentation or resources that may help users.
+
+## Idempotency Failure Paths
+
+- **Definition**: Explain what idempotency means in the context of your application.
+- **Failure Scenarios**: Describe potential failure scenarios where idempotency might be compromised.
+- **Mitigation Strategies**: Provide strategies to handle these failures and ensure idempotency is maintained.
