@@ -1,3 +1,16 @@
-## 500 Error Issue
+# Configuration Settings and Setup Instructions
 
-If you encounter a **500 Internal Server Error**, please refer to [Issue #6](https://github.com/niro2-1/niro2-1/issues/6) for troubleshooting steps and updates regarding this issue.
+## Configuration Settings
+
+- **Environment Variables**: List any required environment variables and their purposes.
+- **Configuration Files**: Describe any configuration files needed, their structure, and examples.
+
+## Setup Instructions
+
+1. **Prerequisites**: List software or tools that need to be installed before setup.
+2. **Installation Steps**: Provide a step-by-step guide on how to install and configure the application.
+3. **Running the Application**: Instructions on how to start the application after setup.
+
+## Additional Resources
+
+- Link to any external documentation or resources that may help users.
