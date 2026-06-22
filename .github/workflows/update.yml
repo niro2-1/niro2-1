@@ -1,0 +1,3 @@
+# Updated GitHub Actions
+
+This file replaces deprecated set-output commands with environment variable syntax.
